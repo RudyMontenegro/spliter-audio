@@ -11,13 +11,11 @@ dist/
 *.spec.bak
 *.spec~
 
-# Archivos ejecutables
+# Archivos ejecutables (excepto ffmpeg.exe)
 *.exe
+!ffmpeg.exe
 *.app
 *.dmg
-
-# FFmpeg (archivo binario grande)
-ffmpeg.exe
 
 # Entornos virtuales
 venv/
